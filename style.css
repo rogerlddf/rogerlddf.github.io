@@ -1,11 +1,11 @@
 body{
-	    background: #dfdfdf;
+        background: #dfdfdf;
 }
 
 .clearfix{
-	clear: both;
-	content: "";
-	display: block;
+    clear: both;
+    content: "";
+    display: block;
 }
 
 .header-box{
@@ -16,6 +16,7 @@ body{
     text-align: center;
     color: white;
     margin: 2%;
+    overflow: auto;
 }
 
 .nav-box{
@@ -29,10 +30,12 @@ body{
 }
 
 section{
-	display: block;
+    display: block;
     width: 90%;
     color: white;
-    margin: 2%;
+    margin: 2% auto;
+    /* background: red; */
+    padding: 0%;
 }
 
 footer{
@@ -46,19 +49,21 @@ footer{
 }
 
 .left-sect{
-    width: 49%;
+    width: 41%;
     background: grey;
     float: left;
     padding: 2%;
     text-align: center;
+    margin: 0% 2%;
 }
 
 .right-sect{
-    width: 49%;
+    width: 43%;
     background: grey;
     float: left;
     padding: 2%;
     text-align: center;
+    margin: 0% 2%;
 }
 
 article{
